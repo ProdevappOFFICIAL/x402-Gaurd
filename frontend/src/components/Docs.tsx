@@ -185,7 +185,7 @@ await createApi(
             <p className="text-slate-600 text-sm mb-3">Agent makes request with wallet address in header:</p>
             <div className="bg-slate-900 text-slate-100 rounded-lg p-4 overflow-x-auto">
               <pre className="text-sm">
-{`const response = await fetch('http://localhost:4000/api/wrapped/weather-api', {
+{`const response = await fetch('https://x402gateapi.onrender.com/api/wrapped/weather-api', {
   method: 'POST',
   headers: {
     'X-Agent-Address': 'SP2J6ZY48GV1EZ5V2V5RB9MP66SW86PYKKNRV9EJ7',
